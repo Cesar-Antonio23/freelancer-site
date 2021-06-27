@@ -1,3 +1,28 @@
+:root{ /*Custom Properties*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --fuente-principal: 3.8rem;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Hook para usar rems en vez de pixeles. Para que el tamaño se adapte a las nuevas pantallas de los dispositivos*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:16px;
+}
+/*----------------------------------------------------------------------------------------------------------*/
 .title{
     text-align: center;
+    font-size:var(--fuente-principal);
 }
+
+.title span{
+    font-size: 2rem;
+}
+
