@@ -15,11 +15,13 @@ html{
 }
 body{
     font-size:16px;
+    font-family: 'Krub', sans-serif;
 }
 /*----------------------------------------------------------------------------------------------------------*/
 .title{
     text-align: center;
     font-size:var(--fuente-principal);
+    
 }
 
 .title span{
